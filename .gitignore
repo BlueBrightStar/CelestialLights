@@ -16,3 +16,6 @@ profiles.clj
 /log
 
 
+/.lsp/
+/.clj-kondo/
+/.calva/
