@@ -1,0 +1,15 @@
+[{:name "Technician (Pokémon Trainer)"
+  :text "You are very handy with most forms of electronics, from the PC to the Pokéball."
+  :cost 300
+  :jumpdoc "https://drive.google.com/file/d/0B1qb0_OLhDrDOFJINXpBcDBXS2s/view?usp=sharing&resourcekey=0-_uXKDxwZxFt_BC4Dawy4cA"
+  :relations [{:type :free
+               :perk "Pokéballs (Pokémon Trainer)"}]
+  :tags #{:skill :tech}
+  :max-instances 1}
+ {:name "Pokéballs (Pokémon Trainer)"
+  :text "Five standard Pokéballs."
+  :cost 0
+  :jumpdoc "https://drive.google.com/file/d/0B1qb0_OLhDrDOFJINXpBcDBXS2s/view?usp=sharing&resourcekey=0-_uXKDxwZxFt_BC4Dawy4cA"
+  :relations []
+  :tags #{:item :tech :not-rollable}
+  :max-instances 1}]
